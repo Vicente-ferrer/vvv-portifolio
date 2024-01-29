@@ -1,0 +1,26 @@
+.services-section {
+    margin-bottom: 40px;
+  }
+  .services-section h2,
+  .services-section h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .services-list {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+  }
+  .service-item {
+    padding: 20px;
+    background: linear-gradient(to right, #2B3189, );
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+  }
+  .service-item:hover {
+    transform: scale(1.1);
+  }

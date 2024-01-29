@@ -1,0 +1,20 @@
+.team-section {
+    margin-bottom: 40px;
+  }
+  .team-section h2 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .team-member {
+    display: flex;
+    gap: 20px;
+  }
+  .team-member img {
+    border-radius: 50%;
+  }
+  .social-links {
+    list-style-type: none;
+  }

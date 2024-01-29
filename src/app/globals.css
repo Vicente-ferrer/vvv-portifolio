@@ -1,8 +1,14 @@
 :root {
+  --logo-color: #2B3189;
+  --bg-color: #222831;
+
 }
 
 html,
 body {
+  height: 100%;
   max-width: 100vw;
   overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
