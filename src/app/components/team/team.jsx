@@ -1,22 +1,34 @@
 import React from "react";
 import Image from "next/image";
-import "./team.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Dev1 from "../../../../public/foto_vicente.jpeg";
+import Skill from "../skill/skill";
+import "./team.css";
 
 const TeamMembers = () => {
   return (
-    <div className="team-member">
-      <Image src={Dev1} width={80} height={100} alt="Dev 1" title="Dev1" />
-      <h3>Vicente de Sousa</h3>
-      <ul className="social-links">
-        <li>
-          <a href="https://linkedin.com/in/dev1">LinkedIn</a>
-        </li>
-        <li>
-          <a href="https://github.com/Vicente-ferrer/">GitHub</a>
-        </li>
-      </ul>
-      <p>Habilidades: Desenvolvimento Web e Mobile com React e React Navive</p>
+    <div id="team" className="team-section">
+      <div className="image-container">
+        <Image src={Dev1} width={221} height={222} alt="Vicente" title="Dev" />
+        <Skill image="/vercel.svg" measure={2} years="2 years" />
+      </div>
+
+      {/* Informações sobre a pessoa à direita */}
+      <div className="personal-info">
+        <h1 className="name">Vicente de Sousa</h1>
+        <h2 className="work">Desenvolvedor Front-end e Mobile</h2>
+        <h3 className="lang1">EN: Basico</h3>
+        <h3 className="lang2">PT-BR: Nativo</h3>
+        <h3 className="formation">
+          Computer engeenier - Universidade Federal do Para
+        </h3>
+      </div>
+
+      {/* Gradiente para o botão de contato */}
+      <div className="contact-button">
+        <div className="gradient"></div>
+        <FontAwesomeIcon icon="outline-email" />
+      </div>
     </div>
   );
 };

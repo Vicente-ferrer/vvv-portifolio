@@ -5,7 +5,7 @@ import BackgroundImage from "../../../../public/background.svg"; // Substitua pe
 
 const WelcomeSection = () => {
   return (
-    <section className="welcome-section">
+    <section id="home" className="welcome-section">
       <h2>
         Enchance your<br></br>business
       </h2>

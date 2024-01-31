@@ -1,0 +1,48 @@
+.footer {
+    background-color: var(--bg-color);
+    color: #fff;
+    padding: 40px 20px;
+  }
+  
+  .contact-section {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .company-contacts,
+  .feedback-contacts {
+    flex-basis: 48%;
+  }
+  
+  h2 {
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+  }
+  
+  .social-media {
+    margin-top: 40px;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #2B3189;
+  }
+  

@@ -1,10 +1,11 @@
-// HomePage.js
+// HomePage.jsx
 import React from "react";
-import Header from "./components/header/header";
-import WelcomeSection from "./components/welcome/welcome";
-import AboutSection from "./components/about/about";
-import ServicesSection from "./components/services/services";
-import TeamMember from "./components/team/team";
+import Header from "../app/components/header/header";
+import WelcomeSection from "../app/components/welcome/welcome";
+import AboutSection from "../app/components/about/about";
+import ServicesSection from "../app/components/services/services";
+import TeamMember from "../app/components/team/team";
+import Footer from "../app/components/footer/Footer";
 import "./HomePage.css";
 
 const HomePage = () => {
@@ -16,11 +17,10 @@ const HomePage = () => {
         <AboutSection />
         <ServicesSection />
         <section className="team-section">
-          <h2>Nosso Time</h2>
           <TeamMember />
-          {/* Adicione mais membros da equipe aqui */}
         </section>
       </main>
+      <Footer />
     </div>
   );
 };

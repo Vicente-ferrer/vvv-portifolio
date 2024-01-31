@@ -1,22 +1,27 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    background: var(--bg-color);
-  }
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: var(--bg-color);
+}
   
-  .logo {
+.logo {
     font-size: 24px;
     font-weight: bold;
   }
   
-  .navigation .menu {
+.navigation .menu {
     list-style-type: none;
     display: flex;
     gap: 20px;
   }
-  
-  .menu-item a {
+
+.menu-item a {
     color: white;
     text-decoration: none;
     transition: color 0.3s;

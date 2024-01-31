@@ -3,7 +3,7 @@ import "./about.css";
 
 const about = () => {
   return (
-    <section className="testimonial-section">
+    <section id="about" className="testimonial-section">
       <h3>Quem somos nós?</h3>
       <p>
         Nós não sabemos quem somos, nem onde vamos, só sabemos que nossa
