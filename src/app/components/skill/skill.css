@@ -4,10 +4,6 @@
     justify-content: center;
     gap: 8px;
 
-    img {
-        filter: grayscale(100%);
-    }
-
     .experience-unit {
         width: 300px;
         height: 30px;
@@ -27,7 +23,7 @@
             border-radius: 24px;
             height: 30px;
             border: 1px solid  linear-gradient(90deg, #222831 2.62%, #3a26d4 93.38%);
-            background: linear-gradient(90deg, #222831 2.62%, #3a26d4 93.38%);
+            background: linear-gradient(90deg, #222831 2.62%, #8f8baf 93.38%);
 
             color: var(--text-primary);
             font-weight: 300;
