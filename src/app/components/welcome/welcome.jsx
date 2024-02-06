@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import "./welcome.css";
-import BackgroundImage from "../../../../public/background.svg"; // Substitua pelo caminho real da sua imagem
+import BackgroundImage from "../../assets/img/background.svg"; // Substitua pelo caminho real da sua imagem
 
 const WelcomeSection = () => {
   return (
